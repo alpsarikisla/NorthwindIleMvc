@@ -8,10 +8,13 @@
     @RenderSection("stiller", false)
 </head>
 <body>
-    <div class="solMenu">
-        @Html.ActionLink("Anasayfa", "Index","Home" ,null)
+    <div class="solMenu" style="padding:15px">
+        @Html.ActionLink("Anasayfa", "Index", "Home", null)
         <a href="@Url.Action("Index","Kategori")">Kategori Listesi</a>
         <a href="@Url.Action("Ekle","Kategori")">Kategori Ekle</a>
+        <hr />
+        <a href="@Url.Action("Index","Urun")">Ürün Listele</a>
+        <a href="@Url.Action("Create","Urun")">Ürün Ekle</a>
     </div>
     <div class="anaIcerik">
         @RenderBody()

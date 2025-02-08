@@ -1,0 +1,45 @@
+﻿@using MVCIleNorthwind.Models
+@model IEnumerable<Products>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Ürünler</h2>
+<hr />
+<table border="1" cellpadding="0" cellspacing="0" class="liste">
+    <tr>
+        <td>ID</td>
+        <td>Isim</td>
+        <td>Kategori</td>
+        <td>Tedarikçi</td>
+        <td>Stok</td>
+        <td>Fiyat</td>
+        @*<td>Kampanyalı Fiyat</td>*@
+        <td>Seçenekler</td>
+    </tr>
+    @foreach (Products item in Model)
+    {
+        <tr>
+            <td>@item.ProductID</td>
+            <td>@item.ProductName</td>
+            <td>
+                @if (item.Categories != null)
+                {
+                    @item.Categories.CategoryName
+                }
+            </td>
+            <td>@item.Suppliers.CompanyName</td>
+            <td>@item.UnitsInStock adet</td>
+            <td>@item.UnitPrice ₺</td>
+            @*<td>
+                @{ decimal price = Convert.ToDecimal(item.UnitPrice) - 5;}
+            @price ₺
+            </td>*@
+            <td>
+                <a href="@Url.Action("Edit", "Urun", new {id=item.ProductID})">Düzenle</a>
+            </td>
+        </tr>
+    }
+</table>
+

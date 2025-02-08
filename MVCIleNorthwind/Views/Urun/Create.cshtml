@@ -1,0 +1,45 @@
+﻿@model MVCIleNorthwind.Models.Products
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@section stiller
+{
+    <link href="~/Assets/css/FormLayout.css" rel="stylesheet" />
+}
+<h2>Ürün Ekle</h2>
+<hr />
+<div class="formtasiyici">
+    @using (Html.BeginForm())
+    {
+        <div class="satir">
+            <label>Ürün Adı</label><br />
+            @Html.EditorFor(u => u.ProductName, new { htmlAttributes = new { @class = "metinKutu" } })
+        </div>
+        <div class="satir">
+            <label>Kategori</label><br />
+            @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "metinKutu" })
+        </div>
+        <div class="satir">
+            <label>Tedarikci</label><br />
+            @Html.DropDownList("SupplierID", null, htmlAttributes: new { @class = "metinKutu" })
+        </div>
+        <div class="satir">
+            <label>Fiyat</label><br />
+            @Html.EditorFor(u => u.UnitPrice, new { htmlAttributes = new { @class = "metinKutu" } })
+        </div>
+        <div class="satir">
+            <label>Stok Miktarı</label><br />
+            @Html.EditorFor(u => u.UnitsInStock, new { htmlAttributes = new { @class = "metinKutu" } })
+        </div>
+        <div class="satir">
+            <label>Satışta mı</label><br />
+            @Html.EditorFor(u => u.Discontinued)
+        </div>
+        <div class="satir">
+            <input type="submit" class="eklebutton" value="Ürün Ekle" />
+        </div>
+    }
+</div>
+
+
