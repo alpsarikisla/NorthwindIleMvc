@@ -7,11 +7,16 @@
 
 <h2>Kategoriler</h2>
 <hr />
+@if (TempData["mesaj"] != null)
+{
+    <label>@TempData["mesaj"]</label>
+}
 <table cellpadding="0" cellspacing="0" border="1" class="liste">
     <tr>
         <th>ID</th>
         <th>Isim</th>
         <th>Açıklama</th>
+        <th>Ürün Sayı</th>
         <th>Seçenekler</th>
     </tr>
     @foreach (Categories item in Model)
@@ -30,8 +35,19 @@
                 }
             </td>
             <td>
+                @item.Products.Count
+            </td>
+            <td>
                 <a href="@Url.Action("Duzenle","Kategori", new {id = item.CategoryID})">Düzenle</a>
-                <a href="@Url.Action("Sil","Kategori")">Sil</a>
+                @*@if (item.Products.Count == 0)
+                    {
+                        <a href="@Url.Action("Sil","Kategori", new {id= item.CategoryID})">Sil</a>
+                    }
+                    else
+                    {
+                        <label>Sil</label>
+                    }*@
+                <a href="@Url.Action("Sil","Kategori", new {id= item.CategoryID})">Sil</a>
             </td>
         </tr>
     }

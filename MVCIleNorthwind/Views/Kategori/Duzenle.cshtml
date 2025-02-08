@@ -25,6 +25,10 @@
 
     @using (Html.BeginForm())
     {
+        @Html.HiddenFor(x=> x.CategoryID)
+
+        <!-- Düzenleme işleminde sayfada görünmeyen ancak model içerisinde yer alması gereken tüm fieldları Html.HiddenFor ile model yapısına dahil etmeliyiz. -->
+
         <div class="satir">
             <label>Kategori Adı</label><br />
             @Html.EditorFor(x => x.CategoryName, new { htmlAttributes = new { @class = "metinKutu" } })

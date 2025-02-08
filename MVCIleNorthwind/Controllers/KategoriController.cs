@@ -63,5 +63,32 @@ namespace MVCIleNorthwind.Controllers
                 return RedirectToAction("Index", "Kategori");
             }
         }
+        [HttpPost]
+        public ActionResult Duzenle(Categories model)
+        {
+            db.Entry(model).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
+            return View(model);
+        }
+        public ActionResult Sil(int? id)
+        {
+            if (id != null)
+            {
+                Categories c = db.Categories.Find(id);
+                if (c != null)
+                {
+                    if (c.Products.Count == 0)
+                    {
+                        db.Categories.Remove(c);
+                        db.SaveChanges();
+                    }
+                    else
+                    {
+                        TempData["mesaj"] = $"Bu kategori {c.Products.Count} adet üründe kullanıldığı için şu anda silinemez";
+                    }
+                }
+            }
+            return RedirectToAction("Index", "Kategori");
+        }
     }
 }
