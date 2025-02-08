@@ -1,0 +1,40 @@
+﻿@using MVCIleNorthwind.Models
+@model IEnumerable<Categories>
+@{
+    ViewBag.Title = "Kategori Listesi";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Kategoriler</h2>
+<hr />
+<table cellpadding="0" cellspacing="0" border="1" class="liste">
+    <tr>
+        <th>ID</th>
+        <th>Isim</th>
+        <th>Açıklama</th>
+        <th>Seçenekler</th>
+    </tr>
+    @foreach (Categories item in Model)
+    {
+        <tr>
+            <td>@item.CategoryID</td>
+            <td>@item.CategoryName</td>
+            <td>
+                @if (item.Description != null)
+                {
+                    @item.Description
+                }
+                else
+                {
+                    <label style="color:red">Yog</label>
+                }
+            </td>
+            <td>
+                <a href="@Url.Action("Duzenle","Kategori", new {id = item.CategoryID})">Düzenle</a>
+                <a href="@Url.Action("Sil","Kategori")">Sil</a>
+            </td>
+        </tr>
+    }
+</table>
+
+

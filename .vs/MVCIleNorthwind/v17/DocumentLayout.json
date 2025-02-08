@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|c:\\users\\alp\\source\\repos\\mvcilenorthwind\\mvcilenorthwind\\views\\kategori\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\views\\kategori\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\mvcilenorthwind\\controllers\\kategoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\controllers\\kategoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\mvcilenorthwind\\views\\kategori\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\views\\kategori\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\mvcilenorthwind\\views\\kategori\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\views\\kategori\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\mvcilenorthwind\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\mvcilenorthwind\\assets\\css\\basiclayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\assets\\css\\basiclayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\mvcilenorthwind\\assets\\css\\formlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\assets\\css\\formlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\mvcilenorthwind\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B899F32B-D97A-4613-865A-EF920E48CA6A}|MVCIleNorthwind\\MVCIleNorthwind.csproj|solutionrelative:mvcilenorthwind\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "MVCIleNorthwind\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T15:37:13.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Kategori\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\Views\\Kategori\\Duzenle.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Kategori\\Duzenle.cshtml",
+              "RelativeToolTip": "MVCIleNorthwind\\Views\\Kategori\\Duzenle.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T15:35:31.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormLayout.css",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Assets\\css\\FormLayout.css",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\Assets\\css\\FormLayout.css",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Assets\\css\\FormLayout.css",
+              "RelativeToolTip": "MVCIleNorthwind\\Assets\\css\\FormLayout.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-01T15:09:18.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Kategori\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\Views\\Kategori\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Kategori\\Ekle.cshtml",
+              "RelativeToolTip": "MVCIleNorthwind\\Views\\Kategori\\Ekle.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T14:39:15.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Kategori\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\Views\\Kategori\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Kategori\\Index.cshtml",
+              "RelativeToolTip": "MVCIleNorthwind\\Views\\Kategori\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T13:48:20.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasicLayout.css",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Assets\\css\\BasicLayout.css",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\Assets\\css\\BasicLayout.css",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Assets\\css\\BasicLayout.css",
+              "RelativeToolTip": "MVCIleNorthwind\\Assets\\css\\BasicLayout.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-01T13:28:57.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "MVCIleNorthwind\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T13:37:35.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KategoriController.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Controllers\\KategoriController.cs",
+              "RelativeDocumentMoniker": "MVCIleNorthwind\\Controllers\\KategoriController.cs",
+              "ToolTip": "C:\\Users\\Alp\\source\\repos\\MVCIleNorthwind\\MVCIleNorthwind\\Controllers\\KategoriController.cs",
+              "RelativeToolTip": "MVCIleNorthwind\\Controllers\\KategoriController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:32:30.754Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

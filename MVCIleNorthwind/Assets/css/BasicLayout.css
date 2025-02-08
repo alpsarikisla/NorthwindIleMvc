@@ -1,0 +1,28 @@
+﻿*,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+body {
+}
+.solMenu{
+    width:300px;
+    float:left;
+    height:1000px;
+}
+.solMenu a{
+    display:block;
+}
+.anaIcerik
+{
+    width:1200px;
+    float:left;
+    height:1000px;
+}
+.liste
+{
+    width:100%;
+}
+.liste tr th{
+    padding:7px;
+    font-weight:900;
+}
+    .liste tr td {
+        padding: 7px;
+    }
